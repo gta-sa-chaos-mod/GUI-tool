@@ -286,16 +286,21 @@ namespace GTAChaos.Effects
 
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Backwards Clock", "TimeJustGoesBackwards", "backwards_clock"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Buttsbot", "ButtsbotYes", "buttsbot", -1, 1.0f));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Clear All Garages", "SomeoneStoleMyRide", "clear_all_garages"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Custom Textures", "CustomTextures", "textures_custom"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Deforestation", "Deforestation", "deforestation"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Delayed Controls", "WhatsWrongWithThisKeyboard", "delayed_controls", -1, 1.0f));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Disable Pay N Spray", "MechanicsOnStrike", "disable_pay_n_spray"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "EASY TO READ", "ItsEasierToRead", "very_big_font_scale"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Forceful Explosives", "ABitTooMuchBoom", "forceful_explosions"));
                 AddEffect(new FakeCrashEffect("Game Crash", "TooManyModsInstalled"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Get To The Marker!", "GetToTheMarker", "get_to_marker", 1000 * 60 * 5));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "haha funni font", "ComicSansMasterRace", "font_comic_sans"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Invisible Fire", "InvisibleFire", "invisible_fire"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "It's Morbin Time", "ItsMorbinTime", "textures_its_morbin_time"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "KIRYU-CHAN!!!", "KiryuChan", "font_yakuza"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Lock All Garages", "PersonalImpound", "lock_all_garages"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Low Draw Distance", "LOW_DRAW_DISTANCE", "low_draw_distance"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Low LOD Vehicles", "AtariVehicles", "low_lod_vehicles"));
                 //AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Greyscale Screen", "GreyscaleScreen", "greyscale_screen", -1, 1.0f)); // Greyscale Screen
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Mirrored Screen", "WhatsLeftIsRight", "mirrored_screen", -1, 1.0f)); // Mirrored Screen
@@ -304,6 +309,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Nothing", "ThereIsNoEffect", "nothing"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "No Visible Water", "OceanManGoneAgain", "no_visible_water"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "No Water Physics", "FastTrackToAtlantis", "no_water_physics"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Oil On Roads", "OIL", "oil_on_roads"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "One Hit K.O. (Player)", "ILikeToLiveDangerously", "one_hit_ko").DisableRapidFire()); // One Hit K.O. (Player)
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Pausing", "LetsPause", "pausing", -1, 1.0f));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Quick Sprunk Stop", "ARefreshingDrink", "quick_sprunk_stop"));
@@ -326,6 +332,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Uninstall CS: Source", "UninstallCSS", "textures_counter_strike_source"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Upside-Down Screen", "WhatsUpIsDown", "upside_down_screen", -1, 1.0f)); // Upside-Down Screen
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Vehicle Bullets", "ImShootingCars", "vehicle_bullets"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "WASD Cheats", "DADWDSD", "wasd_cheats"));
                 // --------------- //
 
                 // --- Audio --- //
@@ -366,12 +373,17 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "ASSERT DOMINANCE", "AssertDominance", "t_pose_peds"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Backwards Peds", "BackwardsPeds", "ped_rotation_backwards"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Big Heads", "BigHeadsMode", "big_heads"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Coughing (Everyone)", "PlagueIncForAll", "cough_everyone"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Deadly Bullets (Everyone)", "ModifiedGunsForAll", "deadly_bullets_quad_dmg_everyone"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Disable Headshots", "BulletproofForeheads", "disable_headshots"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Disable All Weapon Damage", "TruePacifist", "disable_all_weapon_damage")); // Disable all Weapon Damage
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Everybody Bleed Now!", "EverybodyBleedNow", "everybody_bleed_now", -1, 1.5f)); // Everybody bleed now!
+                // Not sure what to call this effect because the name is WAY too long. So disabled for now.
+                //AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Give NPCs A Spraycan or Fire Extinguisher", "GIVE_NPCS_SPRAYCAN_OR_FIRE_EXTINGUISHER", "effect_give_npcs_a_sprcan_fire_ex"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Head Peds", "HeadPeds", "head_peds"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Hold The F Up...", "HoldTheFUp", "hold_the_f_up").SetDisplayName(DisplayNameType.STREAM, "Hold The F*** Up..."));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Inverted Weapon Damage", "HealingBullets", "inverted_weapon_damage"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Invisible Cops", "INVISIBLE_COPS", "invisible_cops"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Invincible (Everyone)", "NoOneCanHurtAnyone", "infinite_health_everyone")); // Infinite Health (Everyone)
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Large Peds", "LargePeepoPeds", "ped_size_large"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Long Live The Rich!", "LongLiveTheRich", "long_live_the_rich"));  // Money = Health, shoot people to gain money, take damage to lose it
@@ -379,9 +391,14 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "One Bullet Magazines", "OneInTheChamber", "one_bullet_magazines"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "One Hit K.O. (Everyone)", "EveryoneLikesToLiveDangerously", "one_hit_ko_everyone").DisableRapidFire()); // One Hit K.O. (Everyone)
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Ped Wallhack", "ICanSeeYouGuysThroughWalls", "ped_wallhack"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Peds Can Explode On Death", "ABoomersDeath", "peds_can_explode_on_death"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Peds Explode If Run Over", "ExplosivePeds", "peds_explode_when_run_over")); // Peds Explode If Run Over
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Peds Leave All Vehicles", "ImTiredOfDriving", "everyone_leaves_all_vehicles"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Rainbow Peds", "TastyUnicornPoop", "rainbow_peds"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Desert Eagle)", "DeagleBuddies", "recruit_anyone_desert_eagle").SetDisplayName(DisplayNameType.STREAM, "Recruit Anyone (Deagle)"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Combat Shotgun)", "SPAZBuddies", "recruit_anyone_super_shotgun").SetDisplayName(DisplayNameType.STREAM, "Recruit Anyone (Shotgun)"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Minigun)", "MinigunBuddies", "recruit_anyone_minigun"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Spraycan)", "GraffitiBuddies", "recruit_anyone_spraycan"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Remove Everyone's Weapons", "NoWeaponsAllowed", "remove_everyones_weapons"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Rotating Peds (X)", "PedsRotatingOnX", "ped_rotation_continuous_x"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Rotating Peds (Y)", "PedsRotatingOnY", "ped_rotation_continuous_y"));
@@ -439,19 +456,26 @@ namespace GTAChaos.Effects
                 // --- Player --- //
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "-Health, -Armor, -$250k", "INeedSomeHindrance", "anti_health_armor_money"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Add Random Blips", "PointsOfUninterest", "add_random_blips"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Auto Collect Pickups", "AUTO_COLLECT_PICKUPS", "auto_collect_pickups"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Bankrupt", "CrashTookAllMyMoney", "bankrupt"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Carl! It's Zero!", "ZeroNeedsYourHelp", "teleport_to_zero").DisableRapidFire());
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Cinematic Vehicle Camera", "MachinimaMode", "cinematic_vehicle_camera", -1, 1.0f)); // Cinematic Vehicle Camera
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Coughing (Player)", "PlagueIncForMe", "cough_player"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Deadly Bullets (Player)", "ModifiedGunsForMe", "deadly_bullets_quad_dmg_player"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Death (1% Chance)", "TheChanceOfSuddenDeath", "one_percent_death"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Disable Aiming", "IForgotHowToAim", "disable_aiming"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Disable Healing", "IForgotHowToHeal", "disable_healing"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Disable One Movement Key", "DisableOneMovementKey", "disable_one_movement_key", -1, 1.5f));  // Disable one movement key
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Disable Shooting", "IForgotHowToShoot", "disable_shooting"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Disable Swimming", "IForgotHowToSwim", "disable_swimming", -1, 1.0f));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Drive Wander", "Autopilot", "drive_wander", 1000 * 30));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Drunk Player", "DrunkPlayer", "drunk_player")); // Drunk Player
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Dual Wield Weapons", "AkimboBABY", "dual_wield_weapons"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Experience The Lag", "PacketLoss", "experience_the_lag", -1, 1.0f)); // Experience the lag
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Explosive Bullets", "BombasticImpact", "explosive_bullets"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Eye For An Eye", "EyeForAnEye", "pacifist"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Fake Get Busted", "GoToJailNahJK", "get_busted_fake").SetDisplayName(DisplayNameType.GAME, "Get Busted"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Fake Get Wasted", "HospitalityNahJK", "get_wasted_fake").SetDisplayName(DisplayNameType.GAME, "Get Wasted"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Fire Bullets", "OilOnTheStreets", "fire_bullets"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Flower Power", "FlowerPower", "flower_power"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Force Field", "ForceField", "force_field"));
@@ -465,6 +489,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Get Wasted", "Hospitality", "get_wasted").DisableRapidFire()); // Get's you wasted on the spot
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Grounded", "ImNotAKangaroo", "disable_jumping"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Gun Game", "ModernWarfare2Lobby", "gun_game"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "High Weapon Shoot Speed", "600BulletsAMinute", "increase_shooting_rate"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Instantly Hungry", "IllHave2Number9s", "instantly_hungry")); // Instantly Hungry - Makes CJ instantly hungry
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Inverted Controls", "InvertedControls", "inverted_controls"));  // Inverts some controls
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "It's Rewind Time!", "ItsRewindTime", "its_rewind_time", -1, 1.5f));
@@ -489,6 +514,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Shaky Hands", "IJustCantHoldStill", "shaky_hands"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Shuffle Blips", "ThesePlacesOnceMadeSense", "shuffle_blips"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Solid Water", "JesusInTheHouse", "walk_on_water"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Spawn Fires Around Player", "WatchingTheWorldBurn", "spawn_fire_around_player"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Steer Bias (Left)", "LeftSideBias", "steer_bias_left"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Steer Bias (Right)", "RightSideBias", "steer_bias_right"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Player, "Super Low FOV", "SuperLowFOV", "super_low_fov", 1000 * 30));
@@ -570,12 +596,15 @@ namespace GTAChaos.Effects
 
                 // --- Wanted --- //
                 AddEffect(new FunctionEffect(Category.CustomEffects_Wanted, "Always Wanted", "ICanSeeStars", "always_wanted").DisableRapidFire());
+                AddEffect(new FunctionEffect(Category.CustomEffects_Wanted, "Freeze Wanted Level", "SchroedingersPoliceWarrant", "freeze_wanted_level"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Wanted, "Respect The Law", "RespectTheLaw", "respect_the_law", -1, 1.5f));
                 // -------------- //
 
                 // --- Weather --- //
+                AddEffect(new FunctionEffect(Category.CustomEffects_Weather, "Acid Rain", "HydrogenChlorideFromAbove", "acid_rain"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Weather, "Earthquake", "Earthquake", "earthquake"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Weather, "Very Strong Wind", "ItHeckinWimdy", "very_strong_wind"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Weather, "Misty Weather", "SilentHillExperience", "mist"));
                 // --------------- //
 
                 // --- Teleport --- //

@@ -146,14 +146,11 @@ namespace GTAChaos.Effects
                 // -------------------- Cheats -------------------- //
                 // --- NPCs --- //
                 AddEffect(new FunctionEffect(Category.NPCs, "Aggressive Drivers", "AllDriversAreCriminals", "aggressive_drivers")); // Aggressive drivers
-                AddEffect(new FunctionEffect(Category.NPCs, "Bounty On Your Head", "StopPickingOnMe", "have_a_bounty_on_your_head")); // Have a bounty on your head
                 AddEffect(new FunctionEffect(Category.NPCs, "Elvis Is Everywhere", "BlueSuedeShoes", "elvis_is_everywhere")); // Elvis is everywhere
                 AddEffect(new FunctionEffect(Category.NPCs, "Everyone Armed", "SurroundedByNutters", "everyone_armed")); // Everyone armed
                 AddEffect(new FunctionEffect(Category.NPCs, "Gang Members Everywhere", "OnlyHomiesAllowed", "gang_members_everywhere")); // Gang members everywhere
                 AddEffect(new FunctionEffect(Category.NPCs, "Gangs Control The Streets", "BetterStayIndoors", "gangs_control_the_streets")); // Gangs control the streets
                 AddEffect(new FunctionEffect(Category.NPCs, "Ghost Town", "GhostTown", "ghost_town")); // Reduced traffic
-                AddEffect(new FunctionEffect(Category.NPCs, "NPCs Attack Each Other", "RoughNeighbourhood", "npcs_attack_each_other")); // NPCs attack other (+ get golf club)
-                AddEffect(new FunctionEffect(Category.NPCs, "NPCs Attack You", "AttackOfTheVillagePeople", "npcs_attack_you")); // NPCs attack you
                 AddEffect(new FunctionEffect(Category.NPCs, "Recruit Anyone (9mm)", "WannaBeInMyGang", "recruit_anyone_9mm")); // Recruit anyone (9mm)
                 AddEffect(new FunctionEffect(Category.NPCs, "Recruit Anyone (AK-47)", "NoOneCanStopUs", "recruit_anyone_ak47")); // Recruit anyone (AK-47)
                 AddEffect(new FunctionEffect(Category.NPCs, "Recruit Anyone (Rockets)", "RocketMayhem", "recruit_anyone_rockets")); // Recruit anyone (Rockets)

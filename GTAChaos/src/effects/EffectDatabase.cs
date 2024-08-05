@@ -291,7 +291,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "EASY TO READ", "ItsEasierToRead", "very_big_font_scale"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Forceful Explosives", "ABitTooMuchBoom", "forceful_explosions"));
                 AddEffect(new FakeCrashEffect("Game Crash", "TooManyModsInstalled"));
-                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Get To The Marker!", "GetToTheMarker", "get_to_marker", 1000 * 60 * 5));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Get To The Marker!", "GetToTheMarker", "get_to_marker", 1000 * 60 * 5).DisableRapidFire());
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "haha funni font", "ComicSansMasterRace", "font_comic_sans"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Invisible Fire", "InvisibleFire", "invisible_fire"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "It's Morbin Time", "ItsMorbinTime", "textures_its_morbin_time"));

@@ -141,5 +141,7 @@ namespace GTAChaos.Effects
 
             return rapidFire;
         }
+
+        public virtual string GetSoundID() => "";
     }
 }

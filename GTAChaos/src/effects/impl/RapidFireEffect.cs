@@ -42,7 +42,8 @@ namespace GTAChaos.Effects
 
             WebsocketHandler.INSTANCE.SendEffectToGame("effect__generic_empty", new
             {
-                name = this.GetDisplayName()
+                name = this.GetDisplayName(),
+                soundId = this.GetSoundID()
             }, this.GetDuration(duration), this.GetDisplayName(), this.GetSubtext(), this.GetRapidFire());
 
             // Wait for the generic effect to send over first

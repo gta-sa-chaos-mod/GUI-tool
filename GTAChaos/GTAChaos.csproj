@@ -346,7 +346,6 @@
     <Compile Include="src\effects\extra\SpawnVehicleEffect.cs" />
     <Compile Include="src\effects\impl\CustomVehicleSpawnsEffect.cs" />
     <Compile Include="src\effects\impl\FakeCrashEffect.cs" />
-    <Compile Include="src\effects\impl\DiscountRapidFireEffect.cs" />
     <Compile Include="src\effects\impl\HyperRapidFireEffect.cs" />
     <Compile Include="src\effects\impl\RapidFireEffect.cs" />
     <Compile Include="src\effects\impl\FakeTeleportEffect.cs" />

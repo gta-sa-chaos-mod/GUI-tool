@@ -275,7 +275,6 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "2x Effect Speed", "LetsDoThisABitFaster", "double_timer_speed", -1, 10.0f));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "5x Effect Speed", "LetsDoThisReallyFast", "quintuple_timer_speed", -1, 25.0f));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Clear Active Effects", "ClearActiveEffects", "clear_active_effects"), 3.0); // Clear Active Effects
-                AddEffect(new DiscountRapidFireEffect("LIDL Rapid-Fire", "SystemError", "discount_rapid_fire"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Generic, "Hide Chaos UI", "AsIfNothingEverHappened", "hide_chaos_ui", -1, 5.0f).DisableRapidFire());
                 AddEffect(new HyperRapidFireEffect("Hyper Rapid-Fire", "SystemCrash", "hyper_rapid_fire"));
                 AddEffect(new RapidFireEffect("Rapid-Fire", "SystemOverload", "rapid_fire"));
@@ -395,7 +394,7 @@ namespace GTAChaos.Effects
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Desert Eagle)", "DeagleBuddies", "recruit_anyone_desert_eagle").SetDisplayName(DisplayNameType.STREAM, "Recruit Anyone (Deagle)"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Combat Shotgun)", "SPAZBuddies", "recruit_anyone_super_shotgun").SetDisplayName(DisplayNameType.STREAM, "Recruit Anyone (Shotgun)"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Minigun)", "MinigunBuddies", "recruit_anyone_minigun"));
-                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Spraycan)", "GraffitiBuddies", "recruit_anyone_spraycan"));
+                AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Recruit Anyone (Spraycan)", "GraffitiBuddies", "recruit_anyone_spray"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Remove Everyone's Weapons", "NoWeaponsAllowed", "remove_everyones_weapons"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Rotating Peds (X)", "PedsRotatingOnX", "ped_rotation_continuous_x"));
                 AddEffect(new FunctionEffect(Category.CustomEffects_Ped, "Rotating Peds (Y)", "PedsRotatingOnY", "ped_rotation_continuous_y"));

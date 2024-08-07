@@ -115,6 +115,7 @@ namespace GTAChaos.Forms
             this.toolTipHandler = new System.Windows.Forms.ToolTip(this.components);
             this.timerMain = new System.Windows.Forms.Timer(this.components);
             this.buttonSwitchMode = new System.Windows.Forms.Button();
+            this.buttonExperimentalClearActiveEffects = new System.Windows.Forms.Button();
             this.tabs.SuspendLayout();
             this.tabMain.SuspendLayout();
             this.tabStream.SuspendLayout();
@@ -900,6 +901,7 @@ namespace GTAChaos.Forms
             // tabExperimental
             // 
             this.tabExperimental.BackColor = System.Drawing.Color.Transparent;
+            this.tabExperimental.Controls.Add(this.buttonExperimentalClearActiveEffects);
             this.tabExperimental.Controls.Add(this.buttonExperimentalRunEffect);
             this.tabExperimental.Controls.Add(this.textBoxExperimentalEffectName);
             this.tabExperimental.Controls.Add(this.checkBoxExperimental_RunEffectOnAutoStart);
@@ -1058,6 +1060,16 @@ namespace GTAChaos.Forms
             this.buttonSwitchMode.UseVisualStyleBackColor = true;
             this.buttonSwitchMode.Click += new System.EventHandler(this.ButtonSwitchMode_Click);
             // 
+            // buttonExperimentalClearActiveEffects
+            // 
+            this.buttonExperimentalClearActiveEffects.Location = new System.Drawing.Point(431, 236);
+            this.buttonExperimentalClearActiveEffects.Name = "buttonExperimentalClearActiveEffects";
+            this.buttonExperimentalClearActiveEffects.Size = new System.Drawing.Size(113, 22);
+            this.buttonExperimentalClearActiveEffects.TabIndex = 16;
+            this.buttonExperimentalClearActiveEffects.Text = "Clear Active Effects";
+            this.buttonExperimentalClearActiveEffects.UseVisualStyleBackColor = true;
+            this.buttonExperimentalClearActiveEffects.Click += new System.EventHandler(this.buttonExperimentalClearActiveEffects_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1188,6 +1200,7 @@ namespace GTAChaos.Forms
         private System.Windows.Forms.CheckBox checkBoxSettingsCheckForUpdatesAtLaunch;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBoxSettingsStreamMode;
+        private System.Windows.Forms.Button buttonExperimentalClearActiveEffects;
     }
 }
 

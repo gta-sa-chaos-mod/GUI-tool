@@ -1742,5 +1742,24 @@ namespace GTAChaos.Forms
                     }
             }
         }
+
+        private void buttonExperimentalClearActiveEffects_Click(object sender, EventArgs e)
+        {
+            AbstractEffect effect = EffectDatabase.GetByID("clear_active_effects");
+
+            if (effect != null)
+            {
+                EffectDatabase.ShouldCooldown = false;
+                this.CallEffect(effect);
+                EffectDatabase.ShouldCooldown = true;
+                return;
+            }
+
+            int duration = Config.GetEffectDuration();
+            WebsocketHandler.INSTANCE.SendEffectToGame(this.textBoxExperimentalEffectName.Text, new
+            {
+                seed = RandomHandler.Next(9999999)
+            }, duration);
+        }
     }
 }
